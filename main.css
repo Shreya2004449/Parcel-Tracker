@@ -1,0 +1,79 @@
+/* ===== GLOBAL ===== */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #fda9d4, #fb84e3);
+  color: white;
+}
+
+/* ===== APP LAYOUT (FOOTER FIX) ===== */
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main {
+  flex: 1;
+}
+
+/* ===== HOME ===== */
+.home {
+  text-align: center;
+  margin-top: 120px;
+}
+
+.searchBox input {
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  width: 250px;
+  outline: none;
+}
+
+.searchBox button {
+  padding: 12px 20px;
+  margin-left: 10px;
+  border-radius: 8px;
+  border: none;
+  background: orange;
+  color: white;
+  cursor: pointer;
+}
+
+.searchBox button:hover {
+  background: darkorange;
+}
+
+/* ===== RESULT ===== */
+.result {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.card {
+  background: white;
+  color: black;
+  padding: 25px;
+  border-radius: 12px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+.notfound {
+  text-align: center;
+  margin-top: 100px;
+}
+
+/* ===== FOOTER ===== */
+.footer {
+  text-align: center;
+  padding: 15px;
+  background: rgba(0, 0, 0, 0.2);
+}
